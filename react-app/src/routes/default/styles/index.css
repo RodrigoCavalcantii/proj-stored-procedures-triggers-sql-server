@@ -1,0 +1,36 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #242356;
+}
+
+.center-div{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 15%;
+    color: #FFF;
+}
+
+.btn-go{
+    padding: 0.5rem 5rem;
+    border: solid 2px;
+    border-radius: 10px;
+    font-size: 24px;
+    margin-top: 2rem;
+    background-color: #4F4E83;
+    color: white;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.btn-go:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 800px) {
+    .center-div{
+        margin-top: 50%;
+    }
+}
