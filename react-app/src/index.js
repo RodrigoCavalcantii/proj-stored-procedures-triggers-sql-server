@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Presentation from './routes/default/components/Presentation/Presentation';
+import Presentation from './routes/default/components/Presentation';
 
 const App = () => {
 
