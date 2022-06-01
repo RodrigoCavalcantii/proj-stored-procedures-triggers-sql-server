@@ -34,6 +34,9 @@ body{
     transition: opacity .3s;
 }
 
+.btn-p{
+    background-color: purple;
+}
 .btn-c{
     background-color: #33d8db;
 }
@@ -110,4 +113,29 @@ input, select {
 
 .mt-5{
     margin-top: 50px;
+}
+
+
+
+/* table */
+
+table {
+    width: 100%;
+    padding: 20px;
+    background: cadetblue;
+    border: solid 1px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+thead {
+    
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-remove{
+    cursor: pointer;
+    color: red;
+    font-weight: 600;
 }

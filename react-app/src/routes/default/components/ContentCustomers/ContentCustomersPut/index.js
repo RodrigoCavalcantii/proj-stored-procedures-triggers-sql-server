@@ -8,13 +8,8 @@ export default function ContentCustomerPut({props}) {
         <div className="row" >
             <div className="col-md-3">
                 <div className="form-group">
-                    <label>Customer Id</label>
-                    <select name="customerId" placeholder="Customer Id"  onChange={({target}) =>{ setLocalData({...localData,customerId:target.value})}} >
-                        <option value="">Selecione</option>
-                        <option value="1" >1</option>
-                        <option value="2" >2</option>
-                        <option value="3" >3</option>
-                    </select>
+                    <label>Customer Id&nbsp;&nbsp;&nbsp;<small>Para todos, apenas clique em Enviar!</small></label>
+                    <input type="text" name="customerId" placeholder="Customer Id"  onChange={({target}) =>{ setLocalData({...localData,customerId:target.value})}} />
                 </div>
             </div>
             <div className="col-md-3">

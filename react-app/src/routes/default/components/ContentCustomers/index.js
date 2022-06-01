@@ -6,7 +6,13 @@ import ContentCustomersDel from "./ContentCustomersDel"
 import ContentCustomersPut from "./ContentCustomersPut"
 
 export default function ContentCustomers({props}) {
-  const [actionType,setActionType] = React.useState(0);
+  const [actionType,setActionType] = React.useState(0,() => {
+    props.setDataConsultCustomer([])
+  });
+
+  React.useEffect(() => {
+    props.setDataConsultCustomer([]);
+  },[actionType])
   
     return (
       <div className="center-div no-mt">

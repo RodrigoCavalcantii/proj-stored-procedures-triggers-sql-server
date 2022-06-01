@@ -6,8 +6,6 @@ const App = () => {
 
   const pathName = window.location.pathname.split('/')[window.location.pathname.split('/').length - 1];
 
-  console.log("pathName",pathName);
-  
   return (
     <Presentation />
   );
